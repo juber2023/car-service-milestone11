@@ -146,3 +146,6 @@ app.get('/', (req,res)=>{
 app.listen(port, ()=>{
     console.log(`Car is running port ${port}`);
 })
+
+// for vercel deploy 
+module.exports = app;
